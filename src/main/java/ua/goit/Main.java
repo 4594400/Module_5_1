@@ -17,7 +17,7 @@ public class Main {
 
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Please, input expression. For example: 5 + 3 or 95 - 5.");
+        System.out.println("Please, input expression. For example: 5 + 3 or 95 * 5.");
         try {
             String expression = reader.readLine();
             System.out.println(expression + " = " + operationExecutor.executeOperation(expression));
